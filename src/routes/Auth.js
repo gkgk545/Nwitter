@@ -75,7 +75,7 @@ const Auth = () => {
         />
         <input
           type="submit"
-          value="Log In"
+          name="Log In"
           value={newAccount ? "Create Account" : "Log In"}
         />
         {error}
